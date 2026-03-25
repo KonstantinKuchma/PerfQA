@@ -28,7 +28,6 @@ public class homework3_5 {
             masInt[i] = masInt[size - 1 - i];
             masInt[size - 1 - i] = a; // Меняем местами i‑й элемент и симметричный ему с конца
         }
-
         System.out.println("Массив после перестановки: " + java.util.Arrays.toString(masInt)); // Вывод массива после перстановки
     }
 }
