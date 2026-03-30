@@ -2,11 +2,11 @@ package homework4_2;
 
 public class Main {
     public static void main(String[] args) {
-        Bankomat bankomat = new Bankomat(10, 10, 10); // cоздаём банкомат
+        Bankomat bankomat = new Bankomat(1, 1, 1); // cоздаём банкомат
 
-        bankomat.addCash(5, 2, 1); // добавляем деньги в банкомат
+        bankomat.addCash(1, 1, 1); // добавляем деньги в банкомат
 
-        boolean success = bankomat.withdraw(250); // снимаем деньги
+        boolean success = bankomat.withdraw(110); // снимаем деньги
         System.out.println("Снятие успешно: " + success);
 
     }

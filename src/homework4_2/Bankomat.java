@@ -42,6 +42,11 @@ public class Bankomat {
         give20 = Math.min(summa1 / 20, count20); // выдача по 20
         summa1 -= give20 * 20;
 
+        if (summa1 != 0) {
+            System.out.println("запрошенную сумму невозможно выдать с имеющимся набором купюр.");
+            return false;
+        }
+
         count100 -= give100; //остаток 100
         count50 -= give50; //остаток 50
         count20 -= give20; //остаток 20
